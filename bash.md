@@ -78,9 +78,9 @@ Let's log in to 206.12.90.125 using a username userXXX (where XXX=01..120):
 ~~~ {.bash}
 $ whoami   # explain what happens when you type a command: finds it, runs it, displays output, new prompt
 $ pwd   # explain /, root directory, path, why 'pwd' is so short (traces to early 1970s)
-$ ls
+$ ls #list currently visible diectories
 $ ls someDirectory
-$ ls /
+$ ls /	#home
 $ ls -F   # -F displays a bit more info (adds trailing / to the names of directories); -F is a flag/option
 $ ls -F someDirectory   # can combine both arguments and flags
 $ ls -F /someDirectory   # why an error?
